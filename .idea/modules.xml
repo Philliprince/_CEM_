@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CEM-security.iml" filepath="$PROJECT_DIR$/CEM-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CEM.iml" filepath="$PROJECT_DIR$/CEM.iml" />
     </modules>
   </component>
 </project>

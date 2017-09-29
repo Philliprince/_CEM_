@@ -2,157 +2,608 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="CEM-security:war" />
+      <artifact name="CEM:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6838067-b149-41b3-9c37-5a9b852e6b98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/CEM_security_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/CEM_security_war_exploded.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/service/impl/ScheduleJobLogServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysUserRoleDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysRoleDeptEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/redis/SysConfigRedis.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysMenuService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysUserRoleService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysMenuServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysRoleServiceImpl.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/annotation/DataFilter.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/annotation/DataFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/annotation/SysLog.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/annotation/SysLog.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/aspect/DataFilterAspect.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/aspect/DataFilterAspect.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/aspect/RedisAspect.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/aspect/RedisAspect.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/aspect/SysLogAspect.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/aspect/SysLogAspect.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/exception/RRException.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/exception/RRException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/exception/RRExceptionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/exception/RRExceptionHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/ConfigConstant.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/ConfigConstant.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/Constant.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/Constant.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/DateUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/DateUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/HttpContextUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/HttpContextUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/IPUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/IPUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/PageUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/PageUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/Query.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/Query.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/R.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/R.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/RedisKeys.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/RedisKeys.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/RedisUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/RedisUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/ShiroUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/ShiroUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/SpringContextUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/SpringContextUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/validator/Assert.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/validator/Assert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/validator/ValidatorUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/validator/ValidatorUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/validator/group/AddGroup.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/validator/group/AddGroup.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/validator/group/AliyunGroup.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/validator/group/AliyunGroup.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/validator/group/Group.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/validator/group/Group.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/validator/group/QcloudGroup.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/validator/group/QcloudGroup.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/validator/group/QiniuGroup.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/validator/group/QiniuGroup.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/validator/group/UpdateGroup.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/validator/group/UpdateGroup.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/xss/HTMLFilter.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/xss/HTMLFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/xss/SQLFilter.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/xss/SQLFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/xss/XssFilter.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/xss/XssFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/xss/XssHttpServletRequestWrapper.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/xss/XssHttpServletRequestWrapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/gen/controller/SysGeneratorController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/gen/controller/SysGeneratorController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/gen/dao/SysGeneratorDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/gen/dao/SysGeneratorDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/gen/entity/ColumnEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/gen/entity/ColumnEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/gen/entity/TableEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/gen/entity/TableEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/gen/service/SysGeneratorService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/gen/service/SysGeneratorService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/gen/service/impl/SysGeneratorServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/gen/service/impl/SysGeneratorServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/gen/utils/GenUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/gen/utils/GenUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/controller/ScheduleJobController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/controller/ScheduleJobController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/controller/ScheduleJobLogController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/controller/ScheduleJobLogController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/dao/ScheduleJobDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/dao/ScheduleJobDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/dao/ScheduleJobLogDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/dao/ScheduleJobLogDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/entity/ScheduleJobEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/entity/ScheduleJobEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/entity/ScheduleJobLogEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/entity/ScheduleJobLogEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/service/ScheduleJobLogService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/service/ScheduleJobLogService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/service/ScheduleJobService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/service/ScheduleJobService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/service/impl/ScheduleJobServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/service/impl/ScheduleJobServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/utils/ScheduleJob.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/utils/ScheduleJob.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/utils/ScheduleRunnable.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/utils/ScheduleRunnable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/utils/ScheduleUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/utils/ScheduleUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/cloud/AliyunCloudStorageService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/cloud/AliyunCloudStorageService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/cloud/CloudStorageConfig.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/cloud/CloudStorageConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/cloud/CloudStorageService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/cloud/CloudStorageService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/cloud/OSSFactory.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/cloud/OSSFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/cloud/QcloudCloudStorageService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/cloud/QcloudCloudStorageService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/cloud/QiniuCloudStorageService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/cloud/QiniuCloudStorageService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/controller/SysOssController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/controller/SysOssController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/dao/SysOssDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/dao/SysOssDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/entity/SysOssEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/entity/SysOssEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/service/SysOssService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/service/SysOssService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/service/impl/SysOssServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/service/impl/SysOssServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/AbstractController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/AbstractController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/SysConfigController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/SysConfigController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/SysDeptController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/SysDeptController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/SysLogController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/SysLogController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/SysLoginController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/SysLoginController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/SysMenuController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/SysMenuController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/SysPageController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/SysPageController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/SysRoleController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/SysRoleController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/SysUserController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/SysUserController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/BaseDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/BaseDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysConfigDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/SysConfigDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysDeptDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/SysDeptDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysLogDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/SysLogDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysMenuDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/SysMenuDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysRoleDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/SysRoleDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysRoleDeptDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/SysRoleDeptDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysRoleMenuDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/SysRoleMenuDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysUserDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/SysUserDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysConfigEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/entity/SysConfigEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysDeptEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/entity/SysDeptEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysLogEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/entity/SysLogEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysMenuEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/entity/SysMenuEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysRoleEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/entity/SysRoleEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysRoleMenuEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/entity/SysRoleMenuEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysUserEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/entity/SysUserEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysUserRoleEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/entity/SysUserRoleEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysConfigService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/SysConfigService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysDeptService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/SysDeptService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysLogService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/SysLogService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysRoleDeptService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/SysRoleDeptService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysRoleMenuService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/SysRoleMenuService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysRoleService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/SysRoleService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysUserService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/SysUserService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysConfigServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/impl/SysConfigServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysDeptServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/impl/SysDeptServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysLogServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/impl/SysLogServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysRoleDeptServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/impl/SysRoleDeptServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysRoleMenuServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/impl/SysRoleMenuServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysUserRoleServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/impl/SysUserRoleServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysUserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/impl/SysUserServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/shiro/UserRealm.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/shiro/UserRealm.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/shiro/VelocityShiro.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/shiro/VelocityShiro.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/task/TestTask.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/task/TestTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/db.sql" afterPath="$PROJECT_DIR$/doc/db.sql" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/CEM_security_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/CEM_security_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/db.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/generator.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/annotation/DataFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/annotation/SysLog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/aspect/DataFilterAspect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/aspect/RedisAspect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/aspect/SysLogAspect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/exception/RRException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/exception/RRExceptionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/utils/ConfigConstant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/utils/Constant$CloudService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/utils/Constant$MenuType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/utils/Constant$ScheduleStatus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/utils/Constant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/utils/DateUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/utils/HttpContextUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/utils/IPUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/utils/PageUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/utils/Query.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/utils/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/utils/RedisKeys.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/utils/RedisUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/utils/ShiroUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/utils/SpringContextUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/validator/Assert.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/validator/ValidatorUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/validator/group/AddGroup.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/validator/group/AliyunGroup.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/validator/group/Group.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/validator/group/QcloudGroup.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/validator/group/QiniuGroup.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/validator/group/UpdateGroup.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/xss/HTMLFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/xss/SQLFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/xss/XssFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/xss/XssHttpServletRequestWrapper$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/common/xss/XssHttpServletRequestWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/gen/controller/SysGeneratorController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/gen/dao/SysGeneratorDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/gen/entity/ColumnEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/gen/entity/TableEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/gen/service/SysGeneratorService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/gen/service/impl/SysGeneratorServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/gen/utils/GenUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/job/controller/ScheduleJobController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/job/controller/ScheduleJobLogController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/job/dao/ScheduleJobDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/job/dao/ScheduleJobLogDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/job/entity/ScheduleJobEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/job/entity/ScheduleJobLogEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/job/service/ScheduleJobLogService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/job/service/ScheduleJobService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/job/service/impl/ScheduleJobLogServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/job/service/impl/ScheduleJobServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/job/utils/ScheduleJob.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/job/utils/ScheduleRunnable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/job/utils/ScheduleUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/oss/cloud/AliyunCloudStorageService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/oss/cloud/CloudStorageConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/oss/cloud/CloudStorageService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/oss/cloud/OSSFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/oss/cloud/QcloudCloudStorageService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/oss/cloud/QiniuCloudStorageService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/oss/controller/SysOssController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/oss/dao/SysOssDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/oss/entity/SysOssEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/oss/service/SysOssService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/oss/service/impl/SysOssServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/controller/AbstractController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/controller/SysConfigController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/controller/SysDeptController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/controller/SysLogController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/controller/SysLoginController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/controller/SysMenuController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/controller/SysPageController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/controller/SysRoleController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/controller/SysUserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/dao/BaseDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/dao/SysConfigDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/dao/SysDeptDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/dao/SysLogDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/dao/SysMenuDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/dao/SysRoleDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/dao/SysRoleDeptDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/dao/SysRoleMenuDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/dao/SysUserDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/dao/SysUserRoleDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/entity/SysConfigEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/entity/SysDeptEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/entity/SysLogEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/entity/SysMenuEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/entity/SysRoleDeptEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/entity/SysRoleEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/entity/SysRoleMenuEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/entity/SysUserEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/entity/SysUserRoleEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/redis/SysConfigRedis.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/SysConfigService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/SysDeptService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/SysLogService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/SysMenuService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/SysRoleDeptService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/SysRoleMenuService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/SysRoleService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/SysUserRoleService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/SysUserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/impl/SysConfigServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/impl/SysDeptServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/impl/SysLogServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/impl/SysMenuServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/impl/SysRoleDeptServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/impl/SysRoleMenuServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/impl/SysRoleServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/impl/SysUserRoleServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/service/impl/SysUserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/shiro/UserRealm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/shiro/VelocityShiro.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/io/cem/modules/sys/task/TestTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/mapper/gen/SysGeneratorDao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/mapper/job/ScheduleJobDao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/mapper/job/ScheduleJobLogDao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/mapper/oss/SysOssDao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/mapper/sys/SysConfigDao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/mapper/sys/SysDeptDao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/mapper/sys/SysLogDao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/mapper/sys/SysMenuDao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/mapper/sys/SysRoleDao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/mapper/sys/SysRoleDeptDao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/mapper/sys/SysRoleMenuDao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/mapper/sys/SysUserDao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/mapper/sys/SysUserRoleDao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/mybatis.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/spring-jdbc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/spring-mvc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/spring-redis.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/spring-scheduler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/spring-shiro.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/template/Controller.java.vm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/template/Dao.java.vm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/template/Dao.xml.vm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/template/Entity.java.vm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/template/Service.java.vm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/template/ServiceImpl.java.vm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/template/list.html.vm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/template/list.js.vm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/classes/template/menu.sql.vm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/dispatcher-servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/HikariCP-java6-2.3.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/aliyun-sdk-oss-2.5.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/c3p0-0.9.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/classmate-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/commons-codec-1.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/commons-configuration-1.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/commons-digester-1.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/commons-io-2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/commons-lang-2.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/commons-pool2-2.4.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/cos_api-4.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/druid-1.0.28.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/ezmorph-1.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/fastjson-1.2.32.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/filters-2.0.235.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/freemarker-2.3.23.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/gson-2.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/happy-dns-java-0.1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/hibernate-validator-5.4.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/httpclient-4.4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/httpcore-4.4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/httpmime-4.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/jdom-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/jedis-2.9.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/json-20140107.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/kaptcha-0.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/mybatis-3.4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/mysql-connector-java-5.1.38.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/okhttp-3.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/okio-1.8.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/qiniu-java-sdk-7.2.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/quartz-2.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/shiro-core-1.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/shiro-spring-1.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/shiro-web-1.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/spring-aop-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/spring-aspects-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/spring-beans-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/spring-context-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/spring-context-support-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/spring-core-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/spring-data-commons-1.13.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/spring-data-keyvalue-1.2.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/spring-data-redis-1.8.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/spring-expression-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/spring-jdbc-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/spring-oxm-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/spring-tx-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/spring-web-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/spring-webmvc-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/standard-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/velocity-1.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/lib/velocity-tools-2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/velocity-toolbox.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/views/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/views/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/views/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/views/index1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/views/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/views/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/views/modules/gen/generator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/views/modules/job/schedule.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/views/modules/job/schedule_log.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/views/modules/oss/oss.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/views/modules/sys/config.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/views/modules/sys/dept.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/views/modules/sys/log.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/views/modules/sys/menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/views/modules/sys/probe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/views/modules/sys/role.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/views/modules/sys/user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/css/AdminLTE.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/css/all-skins.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/css/bootstrap-table.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/css/index1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/js/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/js/index1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/js/modules/gen/generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/js/modules/job/schedule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/js/modules/job/schedule_log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/js/modules/oss/oss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/js/modules/sys/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/js/modules/sys/dept.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/js/modules/sys/log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/js/modules/sys/menu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/js/modules/sys/role.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/js/modules/sys/user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/js/navtab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/libs/ajaxupload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/libs/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/libs/app.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/libs/bootstrap-table.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/libs/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/libs/fastclick.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/libs/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/libs/jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/libs/router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/libs/validator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/libs/vue-validator.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/libs/vue.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/jqgrid/grid.locale-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/jqgrid/jquery.jqGrid.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/jqgrid/ui.jqgrid-bootstrap-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/jqgrid/ui.jqgrid-bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/jqgrid/ui.jqgrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layer/layer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layer/mobile/layer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layer/mobile/need/layer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layer/skin/default/icon-ext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layer/skin/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layer/skin/default/layer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layer/skin/default/loading-0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layer/skin/default/loading-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layer/skin/default/loading-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layer/skin/moon/default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layer/skin/moon/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/layui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/code.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/aero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/aero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/aero@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/flat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/flat@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/grey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/grey@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/orange@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/pink@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/red@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/flat/yellow@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/futurico/futurico.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/futurico/futurico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/futurico/futurico@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/icheck.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/line/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/line/aero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/line/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/line/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/line/grey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/line/line.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/line/line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/line/line@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/line/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/line/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/line/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/line/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/line/yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/aero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/aero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/aero@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/grey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/grey@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/minimal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/minimal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/minimal@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/orange@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/pink@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/red@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/minimal/yellow@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/polaris/polaris.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/polaris/polaris.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/polaris/polaris@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/aero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/aero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/aero@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/grey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/grey@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/orange@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/pink@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/red@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/square.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/square.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/square@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/icheck/square/yellow@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/laydate/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/laydate/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/layer/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/layer/default/layer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/font/iconfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/font/iconfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/font/iconfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/font/iconfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/15.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/17.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/18.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/19.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/20.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/21.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/23.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/24.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/25.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/26.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/27.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/28.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/29.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/30.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/31.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/32.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/33.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/34.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/35.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/36.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/37.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/38.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/39.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/40.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/41.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/42.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/43.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/44.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/45.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/46.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/47.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/48.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/49.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/50.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/51.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/52.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/53.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/54.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/55.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/56.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/57.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/58.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/59.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/60.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/61.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/62.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/63.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/65.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/66.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/67.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/68.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/69.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/70.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/71.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/images/face/9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/lay/dest/layui.all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/lay/dest/layui.mod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/lay/lib/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/lay/modules/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/lay/modules/element.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/lay/modules/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/lay/modules/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/lay/modules/laydate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/lay/modules/layedit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/lay/modules/layer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/lay/modules/laypage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/lay/modules/laytpl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/lay/modules/tree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/lay/modules/upload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/lay/modules/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/layui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/modules/icheck.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/layui/modules/pjax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/treegrid/img/collapse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/treegrid/img/expand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/treegrid/img/file.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/treegrid/img/folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/treegrid/jquery.treegrid.bootstrap3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/treegrid/jquery.treegrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/treegrid/jquery.treegrid.extension.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/treegrid/jquery.treegrid.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/treegrid/tree.table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/awesomeStyle/awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/awesomeStyle/awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/awesomeStyle/fa.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/awesomeStyle/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/metroStyle/img/line_conn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/metroStyle/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/metroStyle/img/metro.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/metroStyle/img/metro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/metroStyle/metroStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/zTreeStyle/img/diy/1_close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/zTreeStyle/img/diy/1_open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/zTreeStyle/img/diy/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/zTreeStyle/img/diy/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/zTreeStyle/img/diy/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/zTreeStyle/img/diy/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/zTreeStyle/img/diy/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/zTreeStyle/img/diy/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/zTreeStyle/img/diy/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/zTreeStyle/img/diy/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/zTreeStyle/img/line_conn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/zTreeStyle/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/zTreeStyle/img/zTreeStandard.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/zTreeStyle/img/zTreeStandard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/css/zTreeStyle/zTreeStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/statics/plugins/ztree/jquery.ztree.all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/css/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/css/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/css/typography.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/fonts/DroidSans-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/fonts/DroidSans.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/images/collapse.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/images/expand.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/images/explorer_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/images/favicon-16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/images/favicon-32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/images/logo_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/images/pet_store_api.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/images/throbber.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/images/wordnik_api.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/index.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lang/translator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lib/backbone-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lib/es5-shim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lib/handlebars-4.0.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lib/highlight.9.1.0.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lib/highlight.9.1.0.pack_extended.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lib/jquery-1.8.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lib/jquery.ba-bbq.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lib/jquery.slideto.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lib/jquery.wiggle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lib/js-yaml.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lib/jsoneditor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lib/lodash.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lib/marked.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lib/object-assign-pollyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lib/sanitize-html.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/lib/swagger-oauth.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/o2c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/swagger-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CEM-security/swagger/swagger-ui.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/gen/SysGeneratorDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/gen/SysGeneratorDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/job/ScheduleJobDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/job/ScheduleJobDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/job/ScheduleJobLogDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/job/ScheduleJobLogDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/oss/SysOssDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/oss/SysOssDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysConfigDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysConfigDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysDeptDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysDeptDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysLogDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysLogDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysMenuDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysMenuDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleDeptDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleDeptDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleMenuDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleMenuDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserRoleDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserRoleDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-jdbc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-jdbc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/velocity-toolbox.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/velocity-toolbox.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index1.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/statics/css/AdminLTE.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/AdminLTE.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/statics/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/statics/js/index.js" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/statics/js/index1.js" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/index1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/swagger/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/swagger/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/swagger/index.yaml" afterPath="$PROJECT_DIR$/src/main/webapp/swagger/index.yaml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CEM-security.iml" afterPath="$PROJECT_DIR$/CEM.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -178,7 +629,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-945">
+            <state relative-caret-position="1647">
               <caret line="61" column="70" lean-forward="false" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
               <folding />
             </state>
@@ -188,7 +639,7 @@
       <file leaf-file-name="font-awesome.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/font-awesome.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="44145">
               <caret line="1635" column="9" lean-forward="false" selection-start-line="1635" selection-start-column="9" selection-end-line="1635" selection-end-column="9" />
               <folding />
             </state>
@@ -198,28 +649,48 @@
       <file leaf-file-name="TestTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/cem/modules/sys/task/TestTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
+            <state relative-caret-position="567">
               <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index1.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/index1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="109" column="22" lean-forward="true" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+            <state relative-caret-position="2943">
+              <caret line="109" column="22" lean-forward="false" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/main.css">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
+            <state relative-caret-position="81">
+              <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CEM.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CEM.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -228,7 +699,7 @@
       <file leaf-file-name="all-skins.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/all-skins.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="0">
               <caret line="0" column="1867" lean-forward="false" selection-start-line="0" selection-start-column="1867" selection-end-line="0" selection-end-column="1867" />
               <folding />
             </state>
@@ -238,7 +709,7 @@
       <file leaf-file-name="index1.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/index1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="1539">
               <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="11" />
               <folding />
             </state>
@@ -248,8 +719,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="124" column="15" lean-forward="true" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
+            <state relative-caret-position="3348">
+              <caret line="124" column="15" lean-forward="false" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -288,7 +759,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/cdd048c7-b2a2-4029-987f-d5e013be3242/console.sql" />
         <option value="$PROJECT_DIR$/.idea/dataSources.local.xml" />
         <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
@@ -302,6 +772,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/statics/css/AdminLTE.min.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/statics/css/font-awesome.min.css" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -324,7 +795,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="582" />
     <option name="y" value="121" />
     <option name="width" value="1243" />
@@ -347,120 +818,36 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
+              <item name="_CEM_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_CEM_" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
+              <item name="_CEM_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_CEM_" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cem" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
+              <item name="_CEM_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_CEM_" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_CEM_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_CEM_" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="CEM" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -491,7 +878,7 @@
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="CEM-security:war">
+        <artifact name="CEM:war">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -556,8 +943,9 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method>
+        <option name="Make" enabled="false" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="CEM-security:war" />
+          <artifact name="CEM:war" />
         </option>
       </method>
     </configuration>
@@ -671,14 +1059,16 @@
       <workItem from="1506483057099" duration="6797000" />
       <workItem from="1506495851091" duration="6258000" />
       <workItem from="1506566027393" duration="6975000" />
+      <workItem from="1506668297182" duration="409000" />
+      <workItem from="1506668735484" duration="122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20030000" />
+    <option name="totallyTimeSpent" value="20561000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -687,7 +1077,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1924307" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12100213" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -698,11 +1088,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31229597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31120783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15351813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09914712" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -727,15 +1117,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/renren-security/META-INF/MANIFEST.MF" />
-    <entry file="file://$PROJECT_DIR$/target/renren-security/swagger/index.html" />
-    <entry file="file://$PROJECT_DIR$/target/classes/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -768,7 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1431">
           <caret line="42" column="52" lean-forward="false" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -920,7 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,7 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,21 +1377,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/all-skins.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="0">
           <caret line="0" column="1867" lean-forward="false" selection-start-line="0" selection-start-column="1867" selection-end-line="0" selection-end-column="1867" />
           <folding />
         </state>
@@ -1021,15 +1397,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="124" column="15" lean-forward="true" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
+        <state relative-caret-position="3348">
+          <caret line="124" column="15" lean-forward="false" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/index1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="1539">
           <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="11" />
           <folding />
         </state>
@@ -1037,7 +1413,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-945">
+        <state relative-caret-position="1647">
           <caret line="61" column="70" lean-forward="false" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
           <folding />
         </state>
@@ -1045,7 +1421,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="44145">
           <caret line="1635" column="9" lean-forward="false" selection-start-line="1635" selection-start-column="9" selection-end-line="1635" selection-end-column="9" />
           <folding />
         </state>
@@ -1053,7 +1429,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/cem/modules/sys/task/TestTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
+        <state relative-caret-position="567">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
@@ -1063,14 +1439,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4353">
           <caret line="465" column="8" lean-forward="false" selection-start-line="465" selection-start-column="1" selection-end-line="465" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/index1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="109" column="22" lean-forward="true" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+        <state relative-caret-position="2943">
+          <caret line="109" column="22" lean-forward="false" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CEM.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1081,7 +1480,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>CEM-security:war</last-edited>
+          <last-edited>CEM:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1129,7 +1528,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>CEM-security</last-edited>
+          <last-edited>CEM</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
