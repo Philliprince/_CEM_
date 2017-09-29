@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CEM-security:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="CEM-security.war">
+      <element id="artifact" artifact-name="CEM-security:war exploded" />
+    </root>
+  </artifact>
+</component>

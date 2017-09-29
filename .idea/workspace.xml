@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CEM-security:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a6838067-b149-41b3-9c37-5a9b852e6b98" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/CEM_security_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/CEM_security_war_exploded.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/service/impl/ScheduleJobLogServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysUserRoleDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysRoleDeptEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/redis/SysConfigRedis.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysMenuService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysUserRoleService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysMenuServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysRoleServiceImpl.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/annotation/DataFilter.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/annotation/DataFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/annotation/SysLog.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/annotation/SysLog.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/aspect/DataFilterAspect.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/aspect/DataFilterAspect.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/aspect/RedisAspect.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/aspect/RedisAspect.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/aspect/SysLogAspect.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/aspect/SysLogAspect.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/exception/RRException.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/exception/RRException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/exception/RRExceptionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/exception/RRExceptionHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/ConfigConstant.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/ConfigConstant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/Constant.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/Constant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/DateUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/DateUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/HttpContextUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/HttpContextUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/IPUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/IPUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/PageUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/PageUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/Query.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/Query.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/R.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/R.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/RedisKeys.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/RedisKeys.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/RedisUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/RedisUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/ShiroUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/ShiroUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/SpringContextUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/utils/SpringContextUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/validator/Assert.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/validator/Assert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/validator/ValidatorUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/validator/ValidatorUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/validator/group/AddGroup.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/validator/group/AddGroup.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/validator/group/AliyunGroup.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/validator/group/AliyunGroup.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/validator/group/Group.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/validator/group/Group.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/validator/group/QcloudGroup.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/validator/group/QcloudGroup.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/validator/group/QiniuGroup.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/validator/group/QiniuGroup.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/validator/group/UpdateGroup.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/validator/group/UpdateGroup.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/xss/HTMLFilter.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/xss/HTMLFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/xss/SQLFilter.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/xss/SQLFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/xss/XssFilter.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/xss/XssFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/xss/XssHttpServletRequestWrapper.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/common/xss/XssHttpServletRequestWrapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/gen/controller/SysGeneratorController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/gen/controller/SysGeneratorController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/gen/dao/SysGeneratorDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/gen/dao/SysGeneratorDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/gen/entity/ColumnEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/gen/entity/ColumnEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/gen/entity/TableEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/gen/entity/TableEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/gen/service/SysGeneratorService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/gen/service/SysGeneratorService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/gen/service/impl/SysGeneratorServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/gen/service/impl/SysGeneratorServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/gen/utils/GenUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/gen/utils/GenUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/controller/ScheduleJobController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/controller/ScheduleJobController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/controller/ScheduleJobLogController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/controller/ScheduleJobLogController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/dao/ScheduleJobDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/dao/ScheduleJobDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/dao/ScheduleJobLogDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/dao/ScheduleJobLogDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/entity/ScheduleJobEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/entity/ScheduleJobEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/entity/ScheduleJobLogEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/entity/ScheduleJobLogEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/service/ScheduleJobLogService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/service/ScheduleJobLogService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/service/ScheduleJobService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/service/ScheduleJobService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/service/impl/ScheduleJobServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/service/impl/ScheduleJobServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/utils/ScheduleJob.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/utils/ScheduleJob.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/utils/ScheduleRunnable.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/utils/ScheduleRunnable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/job/utils/ScheduleUtils.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/job/utils/ScheduleUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/cloud/AliyunCloudStorageService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/cloud/AliyunCloudStorageService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/cloud/CloudStorageConfig.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/cloud/CloudStorageConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/cloud/CloudStorageService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/cloud/CloudStorageService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/cloud/OSSFactory.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/cloud/OSSFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/cloud/QcloudCloudStorageService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/cloud/QcloudCloudStorageService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/cloud/QiniuCloudStorageService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/cloud/QiniuCloudStorageService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/controller/SysOssController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/controller/SysOssController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/dao/SysOssDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/dao/SysOssDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/entity/SysOssEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/entity/SysOssEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/service/SysOssService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/service/SysOssService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/oss/service/impl/SysOssServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/oss/service/impl/SysOssServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/AbstractController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/AbstractController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/SysConfigController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/SysConfigController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/SysDeptController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/SysDeptController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/SysLogController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/SysLogController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/SysLoginController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/SysLoginController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/SysMenuController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/SysMenuController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/SysPageController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/SysPageController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/SysRoleController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/SysRoleController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/controller/SysUserController.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/controller/SysUserController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/BaseDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/BaseDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysConfigDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/SysConfigDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysDeptDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/SysDeptDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysLogDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/SysLogDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysMenuDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/SysMenuDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysRoleDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/SysRoleDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysRoleDeptDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/SysRoleDeptDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysRoleMenuDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/SysRoleMenuDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/dao/SysUserDao.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/dao/SysUserDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysConfigEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/entity/SysConfigEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysDeptEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/entity/SysDeptEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysLogEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/entity/SysLogEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysMenuEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/entity/SysMenuEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysRoleEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/entity/SysRoleEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysRoleMenuEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/entity/SysRoleMenuEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysUserEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/entity/SysUserEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/entity/SysUserRoleEntity.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/entity/SysUserRoleEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysConfigService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/SysConfigService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysDeptService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/SysDeptService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysLogService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/SysLogService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysRoleDeptService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/SysRoleDeptService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysRoleMenuService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/SysRoleMenuService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysRoleService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/SysRoleService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/SysUserService.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/SysUserService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysConfigServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/impl/SysConfigServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysDeptServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/impl/SysDeptServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysLogServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/impl/SysLogServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysRoleDeptServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/impl/SysRoleDeptServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysRoleMenuServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/impl/SysRoleMenuServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysUserRoleServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/impl/SysUserRoleServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/service/impl/SysUserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/service/impl/SysUserServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/shiro/UserRealm.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/shiro/UserRealm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/shiro/VelocityShiro.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/shiro/VelocityShiro.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/sys/task/TestTask.java" afterPath="$PROJECT_DIR$/src/main/java/io/cem/modules/sys/task/TestTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/db.sql" afterPath="$PROJECT_DIR$/doc/db.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/gen/SysGeneratorDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/gen/SysGeneratorDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/job/ScheduleJobDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/job/ScheduleJobDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/job/ScheduleJobLogDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/job/ScheduleJobLogDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/oss/SysOssDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/oss/SysOssDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysConfigDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysConfigDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysDeptDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysDeptDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysLogDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysLogDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysMenuDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysMenuDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleDeptDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleDeptDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleMenuDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleMenuDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserRoleDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserRoleDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-jdbc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-jdbc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/velocity-toolbox.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/velocity-toolbox.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index1.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/statics/css/AdminLTE.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/AdminLTE.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/statics/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/statics/js/index.js" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/statics/js/index1.js" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/index1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/swagger/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/swagger/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/swagger/index.yaml" afterPath="$PROJECT_DIR$/src/main/webapp/swagger/index.yaml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-945">
+              <caret line="61" column="70" lean-forward="false" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="font-awesome.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/font-awesome.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="1635" column="9" lean-forward="false" selection-start-line="1635" selection-start-column="9" selection-end-line="1635" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/cem/modules/sys/task/TestTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-12">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index1.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/index1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="109" column="22" lean-forward="true" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-31">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all-skins.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/all-skins.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="0" column="1867" lean-forward="false" selection-start-line="0" selection-start-column="1867" selection-end-line="0" selection-end-column="1867" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index1.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/index1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="124" column="15" lean-forward="true" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>renren_security</find>
+      <find>renren</find>
+      <find>tree</find>
+      <find>side</find>
+      <find>sidebar</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>CEM</replace>
+      <replace>cem_sys</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/cdd048c7-b2a2-4029-987f-d5e013be3242/console.sql" />
+        <option value="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e6bcc109-7adf-4be3-a727-e879f0d56619/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/sys/probe.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index1.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/swagger/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/statics/css/AdminLTE.min.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/statics/css/font-awesome.min.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="582" />
+    <option name="y" value="121" />
+    <option name="width" value="1243" />
+    <option name="height" value="823" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cem" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="statics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="statics" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="statics" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CEM-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEM-security" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="renren&#9;null&#9;null&#10;menulist&#9;null&#9;null&#10;main-side&#9;null&#9;null&#10;sidebar&#9;null&#9;null&#10;admin&#9;null&#9;null&#10;AuthenticationException&#9;PSI&#9;JAVA://javax.naming.AuthenticationException" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.56" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="CEM-security:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_renren-security" />
+        <option name="JNDI_PORT" value="1088" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="12400" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CEM-security:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="renren-security" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6838067-b149-41b3-9c37-5a9b852e6b98" name="Default" comment="" />
+      <created>1506483049155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506483049155</updated>
+      <workItem from="1506483057099" duration="6797000" />
+      <workItem from="1506495851091" duration="6258000" />
+      <workItem from="1506566027393" duration="6975000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20030000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1924307" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04570185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31229597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15351813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27094668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/target/renren-security/META-INF/MANIFEST.MF" />
+    <entry file="file://$PROJECT_DIR$/target/renren-security/swagger/index.html" />
+    <entry file="file://$PROJECT_DIR$/target/classes/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1431">
+          <caret line="42" column="52" lean-forward="false" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/modules/gen/generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/modules/sys/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/modules/sys/dept.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4131">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/modules/sys/log.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1201">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/modules/sys/role.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/modules/sys/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2106">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1741">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/navtab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2511">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/swagger/o2c.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/swagger/css/print.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1053">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/swagger/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/swagger/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2349">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/swagger/css/typography.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/swagger/images/collapse.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/swagger/images/expand.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/swagger/images/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/swagger/images/favicon-32x32.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/swagger/images/pet_store_api.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/swagger/lang/translator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/swagger/lang/en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-943">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/swagger/lang/zh-cn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-943">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/swagger/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/velocity-toolbox.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/sys/probe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/job/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/cem/common/aspect/DataFilterAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/oss/oss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/sys/dept.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/sys/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/modules/sys/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/cem/common/xss/XssHttpServletRequestWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1121">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/plugins/layui/css/layui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/all-skins.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="0" column="1867" lean-forward="false" selection-start-line="0" selection-start-column="1867" selection-end-line="0" selection-end-column="1867" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="124" column="15" lean-forward="true" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/index1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-945">
+          <caret line="61" column="70" lean-forward="false" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="1635" column="9" lean-forward="false" selection-start-line="1635" selection-start-column="9" selection-end-line="1635" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/cem/modules/sys/task/TestTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/AdminLTE.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4353">
+          <caret line="465" column="8" lean-forward="false" selection-start-line="465" selection-start-column="1" selection-end-line="465" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/index1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="109" column="22" lean-forward="true" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>CEM-security:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CEM-security</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.0.28</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
